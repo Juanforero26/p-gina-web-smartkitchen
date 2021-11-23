@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Smart Kitchen - Herramientas</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1 class="site-heading text-center text-faded d-none d-lg-block">
+            <span class="site-heading-upper text-primary mb-3">Smart Kitchen</span>
+            <span class="site-heading-lower">Herramientas</span>
+        </h1>
+    </header>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Inicio</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="herramientas.html">Herramientas</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#enlace-equipo">Equipo</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#enlace-contacto">Contacto</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="datos.html">datos</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="http://smartkitchenpuj.125mb.com">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="page-section">
+
+        <
+
+        <div class="product-item-title d-flex">
+            <div class="bg-faded p-5 d-flex ms-auto rounded">
+                <h2 class="section-heading mb-0">
+                    <ul>
+                        <span class="section-heading-lower">Temperatura</span>
+
+                </h2>
+            </div>
+        </div>
+
+        <div class="product-item-description d-flex me-auto">
+            <div class="bg-faded p-5 rounded"><p class="mb-0">Temperatura Actual </p></div>
+
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1520384/widgets/385135"></iframe>
+        </div>
+        <!--Separa gráficas-->
+
+        <div class="product-item-title d-flex">
+            <div class="bg-faded p-5 d-flex ms-auto rounded">
+                <h2 class="section-heading mb-0">
+                    <ul>
+                        <span class="section-heading-lower">Humedad</span>
+
+                </h2>
+            </div>
+        </div>
+
+        <div class="product-item-description d-flex me-auto">
+            <div class="bg-faded p-5 rounded"><p class="mb-0">Historico humedad 15 segs</p></div>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1520384/charts/2?bgcolor=%23ffffff&color=%23d62020&days=1&dynamic=true&max=80%25&min=30%25&results=60&title=Humedad&type=line&xaxis=Tiempo&yaxis=Humedad"></iframe>
+
+
+        </div>
+        <!--Separa gráficas-->
+
+        <div class="product-item-title d-flex">
+            <div class="bg-faded p-5 d-flex ms-auto rounded">
+                <h2 class="section-heading mb-0">
+                    <ul>
+                        <span class="section-heading-lower">Promedio Temp </span>
+
+                </h2>
+            </div>
+        </div>
+
+        <div class="product-item-description d-flex me-auto">
+            <div class="bg-faded p-5 rounded"><p class="mb-0">Promedio Temperatura</p></div>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1581213/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Promedio+de+temperatura&type=column&xaxis=Tiempo&yaxis=Temperatura+C"></iframe>
+
+        </div>
+        <div class="product-item-title d-flex">
+            <div class="bg-faded p-5 d-flex ms-auto rounded">
+                <h2 class="section-heading mb-0">
+                    <ul>
+                        <span class="section-heading-lower">Historico temperatura </span>
+
+                </h2>
+            </div>
+        </div>
+
+        <div class="product-item-description d-flex me-auto">
+            <div class="bg-faded p-5 rounded"><p class="mb-0">Temperatura cada 15 segs</p></div>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1520384/charts/1?bgcolor=%23ffffff&color=%23d62020&days=1&dynamic=true&results=60&title=Temperatura&type=line&xaxis=Tiempo&yaxis=Temperatura"></iframe>
+
+        </div>
+        <section>
+            <a id="enlace-contacto"></a>
+            <div class="card">
+                <h3>Contáctanos</h3>
+                <form action="mailto:smartkitchen065@gmail.com" method="post" name="form1">
+
+                    <p style="color:#000000"
+         <label for="nombre">Nombre: </label>
+        <input id="nombre" name="nombre" type="text" />
+        <label for="email">Email: </label>
+        <input id="email" name="nombre" type="text" />
+        ¿Qué te pareció la página?
+        <textarea id="opinion" name="opinion"></textarea>
+        <input name="Submit" type="submit" value="Enviar" /> </p>
+                </form>
+            </div>
+        </section>
+
+
+
+
+        <footer class="footer text-faded text-center py-5">
+            <div class="container"><p class="m-0 small">Copyright &copy; SmartKitchenIoT 2021-3</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/filtro.js"></script>
+</body>
+</html>
